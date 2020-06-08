@@ -5,10 +5,10 @@
 
 let array = [1,2,4,591,392,391,2,5,10,2,1,1,1,20,20].sort((a,b) => a-b);
 
-let newArray = [];
 let newestArray = [];
 
 function getNumbers(arr) {
+    let newArray = [];
     for (i = 0; i < arr.length; i++) {
       if (arr[i] === arr[i+1]) {
         newArray.push(arr[i]);
